@@ -14,4 +14,4 @@ How to play zork: http://infodoc.plover.net/manuals/zork1.pdf
 
 
 ## Issues
-Zork saves and restores into the directory from where frotz is called executed. The app will start in the local_saves dir which is mounted as a volume so that saves can be pulled out of the container for portability.
+Zork saves and restores into the directory from where frotz is executed. The app will start in the local_saves dir which is mounted as a volume so that saves can be pulled out of the container for portability.
