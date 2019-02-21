@@ -8,5 +8,10 @@ If you want to play zork:
 - `docker exec -it zorkbox bash`
 - `.run_zork.sh`
 
-# Issues
-- Zork saves into wherever frotz is called from. When the container is exec'd into the dir will be local_save, and zork is run from there. It's not ideal.
+## Zork manual
+
+How to play zork: http://infodoc.plover.net/manuals/zork1.pdf
+
+
+## Issues
+Zork saves and restores into the directory from where frotz is called executed. The app will start in the local_saves dir which is mounted as a volume so that saves can be pulled out of the container for portability.
