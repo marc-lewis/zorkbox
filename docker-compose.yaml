@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  zorkbox:
+    container_name: zorkbox
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./local_save:/home/zork1/local_save
+      - ./scripts:/home/zork1/scripts
