@@ -7,5 +7,5 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ./local_save:/home/zork1/local_save
+      - ./local_saves:/home/zork1/local_saves
 
