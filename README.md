@@ -6,7 +6,7 @@ If you want to play zork:
 
 - `docker-compose up -d`
 - `docker exec -it zorkbox bash`
-- `.run_zork.sh`
+- `./run_zork.sh`
 
 ## Zork manual
 
